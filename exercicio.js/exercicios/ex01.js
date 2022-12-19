@@ -9,5 +9,5 @@ Exemplo:
 function cumpimentar(nome){
     return nome
 }
-const nome = 'Leonardo'
-console.log('Olá, ' + nome + "!")
+console.log('Olá, ',cumpimentar('Leonardo!'))
+console.log('Olá, ',cumpimentar('Maria!'))
